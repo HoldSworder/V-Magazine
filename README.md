@@ -2,4 +2,4 @@
 
 移动端刊物阅读
 
-使用手机访问
+使用手机访问： https://holdsworder.github.io/V-Magazine/
