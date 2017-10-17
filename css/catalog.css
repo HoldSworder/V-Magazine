@@ -1,0 +1,45 @@
+.content{
+	margin-top: 15%;
+}
+
+.content li{
+	list-style: none;
+
+}
+
+.content ul li .low :first-child{
+	padding-left: 0;
+}
+
+.content ul li .low div:nth-child(2){
+	text-align: right;
+}
+
+.content .low{
+	line-height: 2.5;
+}
+
+.content .low div{
+	border-bottom: 1px solid #f5f5f5;
+	color: #666;
+}
+
+.content .low div:last-child{
+	padding-right: 0;
+
+}
+
+.img3{
+	width: 16px !important;
+	height: 16px !important;
+}
+
+.content ul li{
+	font-family: "黑体";
+	font-size: 16px;
+	color: #666;
+}
+
+.content{
+	width: 100%;
+}

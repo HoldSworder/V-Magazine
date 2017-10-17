@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>文字内容页</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/share.css">
+	<link rel="stylesheet" type="text/css" href="css/article.css">
+</head>
+<body>
+	<div class="top container">
+		<div class="low">
+			<div class="col-xs-1 top-img1">
+				<a href="content.html"><img class="back" src="images/svg/内容页/后退.svg" alt=""></a>
+			</div>
+			<div class="col-xs-9">
+				<p>长江蔬菜==2017.4月刊</p>
+			</div>
+			<div class="col-xs-1 open">
+				<img class="menu" src="images/svg/内容页/目录.svg" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="nav-menu" id="nav-menu">
+		<ul>
+			<a href="search.html"><li>
+				<img src="images/svg/菜单页/搜索_搜索 (1).svg" alt="">
+				<div>
+					<p>搜索</p>
+				</div>
+			</li></a>
+			<li id="mine">
+				<img id="mineImg" src="images/svg/菜单页/个人中心 .svg" alt="">
+				<div class="mine">
+					<p id="mineP">我的</p>
+					<img id="mineImg2"  src="images/svg/菜单页/收起.svg" alt="">
+					
+						<ul class="fold" id="fold">
+							<a href="bookshelf.html"><li>
+								<img src="images/svg/菜单页/期刊.svg" alt="">
+								<p>我的书架</p>
+							</li></a>
+							<a href="collection.html"><li>
+								<img src="images/svg/菜单页/收藏.svg" alt="">
+								<p>我的收藏</p>
+							</li></a>
+							<a href="history.html"><li>
+								<img src="images/svg/菜单页/浏览记录.svg" alt="">
+								<p>浏览记录</p>
+							</li></a>
+							<a href="comment.html"><li>
+								<img src="images/svg/菜单页/评论.svg" alt="">
+								<p>我的评论</p>
+							</li></a>
+						</ul>
+					
+				</div>
+
+			</li>
+			<a href="index.html"><li>
+				<img src="images/svg/菜单页/书架.svg" alt="">
+				<div>
+					<p>书城</p>
+				</div>
+			</li></a>
+			<li id="navCol">
+				<img id="colImg" src="images/svg/菜单页/收藏.svg" alt="">
+				<div class="border-none">
+					<p>收藏期刊</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div id="epub-reader"></div>
+	<!-- 目录按钮 -->
+	<div class="catalog" id="catalog">
+		<img src="images/svg/功能页/目录.svg" alt="">
+		<p>目<br>录</p>
+	</div>
+
+	<!-- 翻页按钮 -->
+	<div class="flip">
+		<div class="last">
+			<img src="images/svg/功能页/上翻.svg" alt="">
+			<p>上<br>一<br>章</p>
+		</div>
+		<div class="next">
+			<p>下<br>一<br>章</p>
+			<img src="images/svg/功能页/上翻.svg" alt="">
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="nav">
+			<div class="input">
+				<input type="text" placeholder="请输入文字.." class="form-control">
+			</div>
+			<div class="nav-img">
+				<div class="img1">
+					<a href="message.html"><img src="images/svg/文字内容页/评论.svg" alt=""></a>
+				</div>
+				<div class="img2" >
+					<img src="images/心.svg" id="like" alt="">
+				</div>
+				<div class="img3" id="share">
+					<img src="images/svg/文字内容页/分享.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!-- 	遮罩 支付 -->
+	<div class="mask" id="mask"></div>
+
+	<div class="pay" id="pay">
+		<p class="pay-text">需支付2元以继续阅读</p>
+		<div class="option">
+			<a href="catalog.html"><p>取消</p></a>
+			<p id="confirm">确认</p>
+		</div>
+	</div>
+
+	<!-- 目录弹框 -->
+	<div class="menu-pop" id="menuPop">
+		<ul>
+			<li>
+				<p>标题1</p>
+				<p>4</p>
+			</li>
+			<li>
+				<p>标题2</p>
+				<p>5</p>
+			</li>
+			<li>
+				<p>标题3</p>
+				<p>15</p>
+			</li>
+		</ul>
+	</div>
+
+	<!-- 分享弹窗 -->
+	<div class="share-pop" id="sharePop">
+		<ul>
+			<li>
+				<img src="images/微信.svg" alt="">
+			</li>
+			<li>
+				<img src="images/朋友圈.svg" alt="">
+			</li>
+			<li>
+				<img src="images/qq (1).svg" alt="">
+			</li>
+			<li>
+				<img src="images/微博.svg" alt="">
+			</li>
+		</ul>
+
+		<div class="cancel" >
+			<p id="cancel">取消分享</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/center.js"></script>
+	<script src="js/epub.min.js"></script>
+	<script src="js/jszip.min.js"></script>
+	<script type="text/javascript" src="js/article.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+.footer{
+	height: 36px;
+	background: #eee;
+	padding-top: 6px;
+	box-shadow: none;
+}
+
+/*.footer input{
+	border: 1px solid #999;
+	border-radius: 9px;
+}*/
+
+.nav{
+	width:100%;
+}
+
+.footer div{
+	display: inline-block;
+}
+
+.footer input{
+	height: 24px;
+	border: 1px solid #ddd;
+	border-radius: 9px;
+	outline: none !important;
+	font-size: 12px;
+	font-family: "黑体"
+}
+
+.input{
+	width: 60%;
+}
+
+.nav-img div{
+	margin: 0 10px;
+}
+
+.img1 img{
+	width: 22px;
+	height: 22px;
+}
+
+.img2 img{
+	width: 20px;
+	height: 20px;
+}
+
+.catalog{
+	width: 28px;
+	height: 60px;
+	box-shadow: 0 0 3px #ccc;
+	position: fixed;
+	top: 40%;
+	border-radius: 0 10px 10px 0;
+}
+
+.catalog img{
+	margin: 6px;
+}
+
+.catalog p{
+	font-size: 12px;
+	font-family: "黑体";
+	line-height: 1;
+	text-align: center;
+	color: #666;
+}
+
+.flip{
+	height: 169px;
+	width: 33px;
+	box-shadow: 0 0 3px #ccc;
+	position: fixed;
+	right: 0;
+	top: 35%;
+	text-align: center;
+	border-radius: 10px 0 0 10px;
+}
+
+.flip p{
+	font-size: 12px;
+	font-family: "黑体";
+	line-height: 1.2;
+	color: #666;
+	margin: 0;
+}
+
+.last{
+	height: 50%;
+}
+
+.last img{
+	margin: 10px 0 6px 0;
+}
+
+.next{
+	height: 50%;
+}
+
+.next p{
+	margin-top: 9px;
+	margin-bottom: 4px;
+}
+
+.next img{
+	transform: rotateX(180deg);
+}
+
+.img3 img{
+	width: 19px;
+	height: 19px;
+	padding-bottom: 1px;
+}
+
+
+/*遮罩*/
+.mask{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top:0;
+	left: 0;
+	background: #666;
+	z-index: 1;
+	opacity: 0.6;
+}
+
+.pay{
+	height: 80px;
+	width: 163px;
+	border-radius: 8px;
+	background: #f2f2f2;
+	z-index: 10000;
+	position: fixed;
+	top: 38%;
+	left: 30%;
+}
+
+.pay-text{
+	font-family: "黑体";
+	font-size: 12px;
+	color: #333;
+	padding: 17px 0;
+	margin: 0  5px;
+	text-align: center;
+	border-bottom: 1px solid #bbb;
+}
+
+.option p{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-size: 12px;
+	font-family: "黑体";
+	color: #42bd56;
+	padding: 3px 27px;
+	margin: 3px 0;
+}
+
+.option p:first-child{
+	border-right: 1px solid #bbb;
+	padding: 3px 28px;
+}
+
+/*目录弹框*/
+.menu-pop{
+	width: 75%;
+	height: 100%;
+	position: fixed;
+	background: white;
+	top: 38px;
+	z-index: 2;
+	left: -75%;
+}
+
+.menu-pop ul{
+	margin-top: 5%;
+}
+
+.menu-pop ul li{
+	list-style: none;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.menu-pop p{
+	display: inline-block;
+	margin: 0;
+	color: #666;
+	font-size: 12px;
+	font-family: "黑体";
+
+}
+
+.menu-pop ul li p:first-child{
+	width: 75%;
+}
+
+.menu-pop ul li p:last-child{
+	text-align: center;
+	width: 10%;
+}
+
+
+/*分享弹窗*/
+.share-pop{
+	height: 100px;
+	background: #f8f8f8;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 2;
+	bottom: 0;
+	width: 100vw;
+	display: none;
+}
+
+.share-pop img{
+	width: 32px;
+	height: 32px;
+}
+
+.share-pop ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 9px;
+	background: white;
+	border-radius: 10px;
+	margin: 10px 20px;
+}
+
+.share-pop ul{
+	height: 68px;
+	padding: 0;
+	margin: 0;
+	margin-left: 2px;
+	border-bottom: 1px solid #c6c4c4;
+}
+
+.cancel p{
+	text-align: center;
+	color: #333;
+	font-size: 12px;
+	font-family: "黑体";
+	margin: 0;
+	line-height: 28px;
+}
+body{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#epub-reader{
+	margin: 45px 15px 0 15px;
+	position: relative;
+	z-index: 5;
+}
+.content-mask{
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 50000;
+}

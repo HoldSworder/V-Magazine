@@ -1,0 +1,46 @@
+.menu{
+	width: 20px;
+	height: 20px;
+}
+
+.content{
+	margin-top: 15%;
+}
+
+.img-responsive{
+	margin-top: 5px;
+	box-shadow: 0 0 5px #ccc;
+	height: 111px;
+}
+
+.content p{
+	
+	margin-bottom: 0;
+	margin-top: 5px;
+	font-family: "黑体";
+	text-align: center;
+}
+
+/*.content .row{
+	margin: 24px 0;
+	height: 156px;
+	margin-top: 0;
+	margin-bottom: 0;
+}*/
+
+.content p{
+	color: #666;
+	font-size: 12px;
+}
+
+.del{
+	position: absolute;
+	top: 7px;
+	right: 20px;
+	display: none;
+	/*transform: rotateX(90deg);*/
+}
+
+.col-xs-4{
+	margin-bottom: 10px;
+}

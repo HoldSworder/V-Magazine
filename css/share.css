@@ -1,0 +1,164 @@
+/*顶部导航通用*/
+
+.top{
+	height: 36px;
+	box-shadow: 0 1px 5px #ccc;
+	position: fixed;
+	top: 0;
+	width: 100% !important;
+	padding: 0;
+}
+
+.top .col-xs-1{
+	padding: 0;
+}
+
+
+
+.back{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+}
+
+.menu{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+}
+
+.top p{
+	margin-top: 8px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "黑体";
+	padding-right: 8px;
+}
+
+.nav-menu{
+	height: 100vh;
+	background: white;
+	position: fixed;
+	right: 0;
+	width: 50%;
+	z-index: 10;
+	top: 36px;
+	box-shadow: 0 5px 8px #ddd;
+	display: none;
+}
+
+.nav-menu ul li img{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	vertical-align: top;
+	margin-top: 7px;
+}
+
+.nav-menu ul li{
+	list-style: none;
+	line-height: 40px;
+}
+
+.nav-menu ul{
+	margin-top: 33px;
+	padding: 0;
+	margin-left: 23px;
+}
+
+.nav-menu ul li div{
+	display: inline-block;
+	font-size: 16px;
+	font-family: "黑体";
+	color: #666;
+	border-bottom: 1px solid #eee;
+	width: 78%;
+}
+
+/*.nav-border{
+	border-bottom: 1px solid #eee;
+}*/
+
+.border-none{
+	border-bottom: none !important;
+}
+
+.mine p{
+	display: inline-block;
+	padding-right: 26px;
+}
+
+.nav-menu .mine img{
+	margin-top: 12px;
+}
+
+.nav-menu ul li .mine img{
+	width: 16px;
+	height: 16px;
+}
+
+.nav-menu p{
+	margin: 0;
+	padding-left: 30px;
+}
+
+.mine .fold{
+	width: 75%;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.fold p{
+	display: inline-block;
+	font-size: 12px;
+	padding: 0;
+	color: #666;
+}
+
+.mine .fold img{
+	margin-top: 8px;
+}
+
+.mine .fold li{
+	line-height: 30px;
+}
+
+.transform{
+	transform: rotate(180deg);
+}
+
+.top .low div:last-child,.top .low div:first-child{
+	height: 38px;
+	text-align: center;
+	width: 10%;
+}
+
+.top .low div:nth-child(2){
+	width: 80% !important;
+}
+
+
+/*底部导航通用*/
+.footer{
+	height: 36px;
+	box-shadow: 0 -1px 5px #ccc; 
+	text-align: center;
+	padding-top: 8px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer img{
+	width: 20px;
+	height: 20px;
+}
+
+.footer .low :first-child{
+	transform: rotateY(180deg);
+}
+
+.img2{
+	width: 23px !important;
+	height: 23px !important;
+}

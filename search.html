@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>搜索页</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+</head>
+<body>
+	<div class="container top">
+		<div class="row">
+			<div class="col-xs-9 input-group input-group-sm top-input">
+				<from><input type="text" class="form-control"></input></from>
+			</div>
+			<div class="col-xs-3 top-text">
+				<a href="index.html"><p>取消</p></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="history container">
+		<div class="history-nav">
+			<p class="p1">搜索历史</p>
+			<p class="p2" id="clear">清除</p>
+		</div>
+		<div class="row row1">
+			<p class="col-xs-6">搜索记录a</p>
+			<p class="col-xs-6">搜索记录b</p>
+		</div>
+		<div class="row">
+			<p class="col-xs-6">搜索记录c</p>
+			<p class="col-xs-6">搜索记录d</p>
+		</div>
+	</div>
+
+	<div class="container hot">
+		<div class="hot-nav">
+			<p>热门搜索</p>
+		</div>
+		<div class="hot-content">
+			<div>
+				<embed src="images/svg/搜索页/第一.svg" type=""></embed><p>如何选择种子？</p>
+			</div>
+			<div>
+				<embed src="images/svg/搜索页/第二.svg" type=""></embed><p>如何选择种子？</p>
+			</div>
+			<div>
+				<embed src="images/svg/搜索页/第三.svg" type=""></embed><p>如何选择种子？</p>
+			</div>
+				<span>4<span><p class="p-last">如何选择种子？</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#clear').click(function(){
+				$('.history').slideToggle();
+			});
+		});
+	</script>
+</body>
+</html>
